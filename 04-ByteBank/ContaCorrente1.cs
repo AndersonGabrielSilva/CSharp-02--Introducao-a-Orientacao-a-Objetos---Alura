@@ -17,8 +17,7 @@ public class ContaCorrente
         }
                
             this.saldo -= valor;
-            return true;
-        
+            return true;    
 
     }
 
