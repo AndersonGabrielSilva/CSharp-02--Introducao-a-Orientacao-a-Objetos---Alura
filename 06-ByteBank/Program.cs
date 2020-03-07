@@ -19,7 +19,7 @@ namespace _06_ByteBank
             conta.Titular.Nome = "Anderson";
             conta.Titular.CPF = "428.137.298-94";
             conta.Titular.Profissao = "Estagiario";
-            conta.Saldo = -100;
+            conta.Saldo = -60;
 
             Console.WriteLine(conta.Titular.Nome);
             Console.WriteLine(conta.Saldo);

@@ -10,7 +10,7 @@ namespace _06_ByteBank
         public Cliente Titular { get; set; }/**/
         public int Agencia { get; set; }
         public int Numero  {get;set;}
-        private double _saldo = 100;
+        private double _saldo = 50;
 
        
         public double Saldo
@@ -28,7 +28,7 @@ namespace _06_ByteBank
                     return;
                 }
 
-                _saldo = value;// o "value" seria o valor que será informado
+                _saldo += value;// o "value" seria o valor que será informado
             }
         }               
 
